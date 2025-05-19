@@ -93,10 +93,10 @@ Accès : http://localhost:8080
 
 # 🧰 - Commandes utiles
 
-| Commande | Description |
-|----------|-----------------|
-| `docker run` | Lance un conteneur |
-| `docker ps -a` | Liste les conteneurs actifs |
-| `docker-compose up` | Démarre tous les services |
-| `docker-compose down` | Arrête tous les services |
+| Commande                           | Description                         |
+|------------------------------------|-------------------------------------|
+| `docker run`                       | Lance un conteneur                  |
+| `docker ps -a`                     | Liste les conteneurs actifs         |
+| `docker-compose up`                | Démarre tous les services           |
+| `docker-compose down`              | Arrête tous les services            |
 | `docker exec -it <container> bash` | Ouvre un terminal dans un conteneur |
