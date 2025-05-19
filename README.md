@@ -17,6 +17,19 @@ Concepts clés :
 - Facilite le déploiement, le scaling et les tests.
 - Fini les "ça marche chez moi".
 
+## 🐳 - Docker File
+
+`Dockerfile`:
+```dockerfile
+FROM php:8.2-apache
+
+# Installe PDO MySQL
+RUN docker-php-ext-install pdo pdo_mysql
+
+# Copie le code source
+COPY src/ /var/www/html/
+```
+
 ## 🐳 - Docker Compose
 
 `docker-compose.yml`:
