@@ -10,14 +10,14 @@ Concepts clés :
 - Dockerfile: un script décrivant comment construire une image.
 - Docker Compose: un outil pour gérer plusieurs conteneurs avec un seul fichier (docker-compose.yml).
 
-# 🤔 - Pourquoi Docker ?
+## 🤔 - Pourquoi Docker ?
 
 - Standardise les environnements de développement.
 - Emballe l’appli avec toutes ses dépendances.
 - Facilite le déploiement, le scaling et les tests.
 - Fini les "ça marche chez moi".
 
-# 🐳 - Docker Compose
+## 🐳 - Docker Compose
 
 `docker-compose.yml`:
 ```yaml
@@ -42,9 +42,9 @@ services:
 docker-compose up
 ```
 
-# 🚀 - Exemples
+## 🚀 - Exemples
 
-## Exemple 1
+### Exemple 1
 
 Exemple basique avec PHP et Apache.
 
@@ -66,7 +66,7 @@ docker run -p 8080:80 mon-php-apache
 ```
 Accès : http://localhost:8080
 
-## Exemple 2
+### Exemple 2
 
 Exemple basique avec PHP et Apache.
 
@@ -91,7 +91,7 @@ docker-compose up --build
 ```
 Accès : http://localhost:8080
 
-# 🧰 - Commandes utiles
+## 🧰 - Commandes utiles
 
 | Commande                           | Description                         |
 |------------------------------------|-------------------------------------|
